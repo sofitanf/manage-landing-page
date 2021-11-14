@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-text {
+    @apply pr-8 font-semibold cursor-pointer text-dark-blue;
+}
+
+.nav-text:hover {
+    @apply text-dark-grayish-blue duration-500;
+}
+
+.p-text {
+    @apply text-dark-grayish-blue;
+}
+
+svg {
+    @apply fill-current text-white cursor-pointer;
+}
+
+svg:hover {
+    @apply text-bright-red duration-500;
+}
+
+.link {
+    @apply cursor-pointer text-very-light-gray;
+}
+
+.link:hover {
+    @apply text-bright-red duration-500;
+}

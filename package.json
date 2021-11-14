@@ -1,0 +1,19 @@
+{
+    "name": "manage-landing-page-master",
+    "version": "1.0.0",
+    "description": "![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)",
+    "main": "postcss.config.js",
+    "dependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.3.11",
+        "tailwindcss": "^2.2.19"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:tailwinds": "tailwind build -i src/assets/tailwind.css -o src/assets/style.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
